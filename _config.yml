@@ -21,7 +21,7 @@
 title: DevRIS Studio
 email: ruby3141@gmail.com
 description: DevRIS Studio, Habitat of CDnX the Pro Sapjiler.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
