@@ -23,11 +23,21 @@ email: ruby3141@gmail.com
 description: DevRIS Studio, Habitat of CDnX the Pro Sapjiler.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:title
 
 # Build settings
 remote_theme: ruby3141/texture
 plugins:
   - jekyll-feed
+
+exclude: [_finalized, finalizer.rb, _drafts/_template.md, _submodules]
+
+kramdown:
+  hard_wrap: true
+
+sass:
+  sourcemap: 'never'
+  line_comments: true
 
 texture:
   style: black
@@ -38,8 +48,11 @@ texture:
   navigation:
     - title: Main Page
       url: "/"
-  social_links:
-    github: ruby3141
+
+languages: ["en", "ko"]
+exclude_from_localization: ["assets"]
+lang_from_path: true
+parallel_localization: false
 
 show_excerpts: true
 
