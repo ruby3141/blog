@@ -30,6 +30,13 @@ remote_theme: ruby3141/texture
 plugins:
   - jekyll-feed
 
+kramdown:
+  hard_wrap: true
+
+sass:
+  sourcemap: 'never'
+  line_comments: true
+
 texture:
   style: black
   title: DevRIS Studio
@@ -39,6 +46,11 @@ texture:
   navigation:
     - title: Main Page
       url: "/"
+
+languages: ["en", "ko"]
+exclude_from_localization: ["assets"]
+lang_from_path: true
+parallel_localization: false
 
 show_excerpts: true
 
