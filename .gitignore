@@ -4,3 +4,4 @@ _finalized
 .jekyll-cache
 .jekyll-metadata
 vendor
+Gemfile.lock
