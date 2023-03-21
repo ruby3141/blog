@@ -30,6 +30,8 @@ remote_theme: ruby3141/texture
 plugins:
   - jekyll-feed
 
+exclude: [_finalized, finalizer.rb, _drafts/_template.md, _submodules]
+
 kramdown:
   hard_wrap: true
 
