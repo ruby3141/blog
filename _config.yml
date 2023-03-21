@@ -38,8 +38,6 @@ texture:
   navigation:
     - title: Main Page
       url: "/"
-  social_links:
-    github: ruby3141
 
 show_excerpts: true
 
